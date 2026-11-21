@@ -26,6 +26,11 @@ img {
   display: block;
 }
 
+/* Helper class */
+.hide {
+  display: none !important;
+}
+
 *,
 *::before,
 *::after {
@@ -46,12 +51,26 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 1158px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 16px;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    /* padding: 0 15px; */
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
 }
 
 .sr-only {
