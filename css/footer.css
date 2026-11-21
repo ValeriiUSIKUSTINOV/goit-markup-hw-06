@@ -1,0 +1,132 @@
+.footer {
+  padding: 100px 0;
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.text-footer {
+  max-width: 264px;
+  color: #f4f4fd;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-social {
+  margin-left: 120px;
+}
+
+.footer .social-list {
+  gap: 16px;
+}
+
+.footer .social-list .social-link:hover,
+.footer .social-list .social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+/* Footer form */
+.footer-subscribe {
+  margin-left: 83px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 453px;
+  height: 80px;
+}
+
+.footer-subscribe-title {
+  display: flex;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 453px;
+  height: 40px;
+
+  max-width: 100%;
+}
+
+.footer-form-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  outline: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: 250ms ease-out;
+  transition-property: border-color;
+}
+
+.footer-form-input::placeholder {
+  color: #fff;
+}
+
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+
+.button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  background-color: #4d5ae5;
+  transition: 250ms ease-out;
+  transition-property: background-color;
+
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.button-form:hover,
+.button-form:focus {
+  background-color: #31d0aa;
+}
+
+.button-icon {
+  fill: #fff;
+}
