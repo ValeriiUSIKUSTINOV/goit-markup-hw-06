@@ -13,25 +13,58 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 188px 0;
+}
+
+.hero .container {
+  padding: 72px 0 72px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero .container {
+    padding: 112px 0;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero .container {
+    padding: 188px 0;
+  }
 }
 
 .hero-title {
+  margin-bottom: 72px;
+
   margin-right: auto;
   margin-left: auto;
-  max-width: 496px;
+  max-width: 216px;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
+
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero-title {
+    margin-bottom: 48px;
+  }
+}
+
 .button {
   display: block;
-  margin: 48px auto 0;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
