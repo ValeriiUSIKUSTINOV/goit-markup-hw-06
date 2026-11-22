@@ -2,7 +2,7 @@
 }
 
 .portfolio-section .container {
-  padding: 96px 0;
+  padding: 96px 16px;
 }
 
 @media only screen and (min-width: 1158px) {

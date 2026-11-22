@@ -5,7 +5,7 @@
   padding: 96px 0;
 }
 
-@media only screen and (min-width: 1158x) {
+@media only screen and (min-width: 1158px) {
   .features .container {
     padding: 120px 0;
   }
@@ -49,15 +49,15 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
   .features-item {
-    max-width: 356px;
+    width: 356px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .features-item {
-    max-width: 264px;
+    width: 264px;
   }
 }
 
@@ -74,7 +74,7 @@
   background: #f4f4fd;
 }
 
-@media only screen and (max-width: 1158px) {
+@media only screen and (max-width: 1157.98px) {
   .features-media {
     display: none;
   }
