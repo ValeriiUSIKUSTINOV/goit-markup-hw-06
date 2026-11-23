@@ -45,7 +45,9 @@
 @media only screen and (min-width: 1158px) {
   .features-list {
     gap: 24px;
-    padding: 0 15px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
   }
 }
 
