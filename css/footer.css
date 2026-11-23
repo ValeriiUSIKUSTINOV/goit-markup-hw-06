@@ -33,7 +33,6 @@
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
   .footer-container {
     padding: 96px 108px;
-    /* padding: 96px 0; */
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
@@ -45,7 +44,8 @@
   .footer-container {
     flex-direction: row;
     align-items: flex-start;
-    padding: 100px 0;
+    padding: 100px 15px;
+    gap: 0;
   }
 }
 
@@ -59,7 +59,6 @@
 }
 @media only screen and (min-width: 768px) {
   .footer-info {
-    margin-left: 108px;
     max-width: 264px;
     align-items: flex-start;
   }
@@ -93,7 +92,7 @@
 
 @media only screen and (min-width: 1158px) {
   .footer-social {
-    margin: 0 0 auto 96px;
+    margin: 0 0 auto 120px;
     align-items: flex-start;
   }
 }
@@ -129,7 +128,6 @@
 
 @media only screen and (min-width: 768px) {
   .footer-subscribe {
-    margin-left: 108px;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
@@ -139,7 +137,8 @@
 
 @media only screen and (min-width: 1158px) {
   .footer-subscribe {
-    margin: 0 auto;
+    margin-top: 0;
+    margin-left: auto;
   }
 }
 
@@ -170,15 +169,16 @@
 @media only screen and (min-width: 768px) {
   .footer-form {
     flex-direction: row;
-    width: 453px;
+    width: 100%;
+    max-width: 453px;
     gap: 24px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .footer-form {
-    width: 453px;
-    height: 40px;
+    /*   width: 453px;
+    height: 40px; */
   }
 }
 

@@ -90,13 +90,6 @@
   color: #fff;
 }
 
-.mobile-menu-nav {
-}
-.mobile-menu-list {
-  /*   display: flex;
-  flex-direction: column;
-  gap: 40px; */
-}
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -145,17 +138,4 @@
 .mobile-menu-social-list {
   display: flex;
   gap: 40px;
-}
-
-.mobile-menu-social-item {
-}
-.social-link {
-}
-
-.mobile-menu-social-link {
-}
-
-.mobile-menu-icon-media {
-}
-.icon-media {
 }
