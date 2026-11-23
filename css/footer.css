@@ -199,6 +199,12 @@
   transition-property: border-color;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-form-input {
+    width: 264px;
+  }
+}
+
 .footer-form-input::placeholder {
   color: #fff;
 }
