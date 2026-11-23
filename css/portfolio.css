@@ -7,7 +7,8 @@
 
 @media only screen and (min-width: 1158px) {
   .portfolio-section .container {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -43,7 +44,7 @@
 }
 
 .portfolio-item {
-  padding: 0 16px;
+  padding: 0;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
